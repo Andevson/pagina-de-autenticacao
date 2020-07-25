@@ -6,23 +6,37 @@
 		<link rel = "stylesheet" type = "text/css" href = "css/estilo.css">
 	</head>
 	<body>
+		<!-- Fundo-->
 		<div id = "bg">
+			<!-- Container -->
 			<div id = "form-autenticacao">
+				<!-- Topo -->
 				<div id = "form-img">
 					<img src = "imagens/perfil.png">
-					<h3>Faça login :</h3>
+					<h3>Entre com sua conta&nbsp;:</h3>
 				</div>
+				<div style = "clear : both;"></div>
+				<!-- Formulários -->
 				<form>
 					<div id = "form-icones">
 						<img src = "imagens/pessoa.png">
 						<img src = "imagens/cadeado.png">
 					</div>
 					<div id = "form-campos">
-						<input type = "text" name = "usuario" value = "Usuário">
-						<input type = "password" name = "senha" value = "Senha">
+						<input type = "text" name = "usuario" placeholder = "Usuário">
+						<input type = "password" name = "senha" placeholder = "Senha">
 					</div>
-					<input id = "btn-login" type = "submit" value = "Login">
+					<div id = "form-botoes">
+						<input id = "btn-login" type = "submit" value = "Entrar">
+					</div>
 				</form>
+				<!-- Parte inferior -->
+				<div id = "inferior">
+					Não possui cadastro?
+					<a id = "btn-logon" href = "cadastrar.html">
+						Cadastrar
+					</a>
+				</div>
 			</div>
 		</div>
 	</body>
