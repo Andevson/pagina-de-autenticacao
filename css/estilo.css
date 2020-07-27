@@ -33,21 +33,20 @@ body {
 
 /* Topo */
 
-#form-autenticacao div#form-img {
+#form-autenticacao div#form-topo {
 	margin : 5px auto;
 	width : 90%;
-	min-height : 85px;
 	max-height : 500px;
 	text-align : center;
 }
 
-#form-autenticacao div#form-img h3 {
+#form-autenticacao div#form-topo h3 {
 	font-size : 1.6em;
 	display : inline;
 	margin : 10px;
 }
 
-#form-autenticacao div#form-img img {
+#form-autenticacao div#form-topo img {
 	float : left;
 	width : 75px;
 	margin : 5px;
@@ -67,16 +66,18 @@ body {
 
 /* Formulário */
 
+/* Propriedades gerais */
+
 #form-autenticacao #form-campos {
 	display : block;
-	padding-left : 45px;
 }
 
 #form-autenticacao #form-campos input {
+	font-size : 1em;
 	display : inline-block;
 	width : 90%;
 	height : 25px;
-	margin : 10px auto;
+	margin : 10px;
 	text-align : left;
 	letter-spacing : 0.1em;
 }
@@ -93,6 +94,32 @@ body {
 	height : 26px;
 	margin : 10px auto;
 	letter-spacing : 0.1em;
+}
+
+#form-autenticacao fieldset {
+	font-size : 0.9em;
+	margin : 10px;
+}
+
+/* Propriedades para autenticar */
+
+#form-autenticacao #autenticar #form-campos {
+	padding-left : 35px;
+}
+
+#form-autenticacao #autenticar #form-campos input {
+	margin : 10px;
+	text-align : left;
+}
+
+/* Propriedades para cadastrar */
+
+#form-autenticacao #cadastrar #form-campos {
+	text-align : left;
+}
+
+#form-autenticacao #cadastrar #form-campos input {
+	margin : 5px 10px 15px 10px;
 }
 
 /* Inferior */

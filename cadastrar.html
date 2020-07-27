@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Cadastrar</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/estilo.css">
+	</head>
+	<body>
+		<!-- Fundo-->
+		<div id = "bg">
+			<!-- Container -->
+			<div id = "form-autenticacao">
+				<!-- Topo -->
+				<div id = "form-topo">
+					<h3>Entre com seus dados&nbsp;:</h3>
+				</div>
+				<!-- Formulários -->
+				<form id = "cadastrar">
+					<div id = "form-campos">
+						<fieldset style = "border : 1px solid orange">
+							<legend>Informações de login :</legend>
+							<label for = "nome">Nome de usuário :</label>
+							<input type = "text" name = "usuario" placeholder = "Usuário" id = "nome">
+							<label for = "senha">Senha da conta :</label>
+							<input type = "password" name = "senha" placeholder = "Senha" id = "senha">
+						</fieldset>
+						<fieldset style = "border : 1px solid orange">
+							<legend>Informações de contato :</legend>
+							<label for = "telefone">Telefone :</label>
+							<input type = "text" name = "telefone" placeholder = "(xx)xxxx-xxxx" id = "telefone">
+							<label for = "endereco">Endereço :</label>
+							<input type = "text" name = "endereco" placeholder = "Endereço" id = "endereco">
+							<label for = "cidade">Cidade :</label>
+							<input type = "text" name = "cidade" placeholder = "Cidade" id = "cidade">
+							<label for = "estado">Estado :</label>
+							<select name = "cidade" id = "estado">
+								<option>Acre</option>
+								<option>Alagoas</option>
+								<option>Amapá</option>
+								<option>Amazonas</option>
+								<option>Bahia</option>
+								<option>Ceará</option>
+								<option>Espírito Santo</option>
+								<option>Goiás</option>
+								<option>Maranhão</option>
+								<option>Mato Grosso</option>
+								<option>Mato Grosso do Sul</option>
+								<option>Minas Gerais</option>
+								<option>Pará</option>
+								<option>Paraíba</option>
+								<option>Paraná</option>
+								<option>Pernambuco</option>
+								<option>Piauí</option>
+								<option>Rio de Janeiro</option>
+								<option>Rio Grande do Norte</option>
+								<option>Rio Grande do Sul</option>
+								<option>Rondõnia</option>
+								<option>Roraima</option>
+								<option>Santa Catarina</option>
+								<option>São Paulo</option>
+								<option>Sergipe</option>
+								<option>Tocantins</option>
+							</select>
+						</fieldset>
+					</div>
+					<div id = "form-botoes">
+						<input id = "btn-login" type = "submit" value = "Enviar dados">
+					</div>
+				</form>
+				<!-- Parte inferior -->
+				<div id = "inferior">
+					Já é cadastrado?
+					<a id = "btn-logon" href = "index.html">
+						Entrar
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
