@@ -11,13 +11,17 @@ body {
 /* Fundo */
 
 #bg {
-	padding : 20px;
+	position : absolute;
+	top : 0px;
+	width : 100%;
+	padding : 20px 0px 0px 0px;
 	background : linear-gradient(to bottom, #FF8345, #FF4A36) no-repeat;
 }
 
 /* Painel de autenticação*/
 
 #form-autenticacao *{
+	margin : 5px;
 	border : 0px solid blue;
 }
 
@@ -152,4 +156,14 @@ body {
 	background : white;
 	color : red;
 	text-decoration : none;
+}
+
+/* Rodapé */
+
+#rodape {
+	background : #FFC010;
+	width : 100%;
+	text-align : center;
+	position : fixed;
+	bottom : 0px;
 }
